@@ -1,21 +1,35 @@
 *{
-    line-height: 1.2; 
+    line-height: 1.5; 
     text-align: left; 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
     /* color: rgb(212, 113, 20);
     background-color: rgb(250, 240, 228);       */
 
  
 }
 
+:root {
+    --clr-blue: rgb(88, 119, 255);
+}
+
+
 
 body{
     font-family: "Raleway";
+    width: 100vw;
+    overflow-x: hidden;
+    background-color: white;
 }
 main{
-    width: 60em;
+    width: 60%;
     margin-left: auto;
     margin-right: auto;
     font-size: 1rem;
+    background-color: rgba(243, 245, 254, 0.182) ;
+  
+   
 }
 .list{
     line-break: auto;
@@ -26,6 +40,7 @@ main{
 li{
     padding-bottom: 0.5rem;
     padding-top: 0.5rem;
+    list-style-position: inside;
 }
 #name{
     font-size: x-large;
@@ -34,11 +49,9 @@ h1{
     padding-top: 5rem;
 }
 
-div, p{
-    line-height: 1.6;
-}
+
 h3{
-    font-size: 35px;
+    font-size: 2rem;
 }
 p, img, h1, h2, h3, h4 {
     padding-bottom: 10px;
@@ -77,7 +90,8 @@ header p {
     margin: 0;   
 }
 fieldset{
-    margin-top: 17px;
+    all: unset;
+    padding: 1rem;
 }
 div p span{
     margin: 0;
@@ -96,7 +110,9 @@ img{
 .background_image{
 padding-top: 3rem;
     padding-bottom: 2rem;
+ border-radius: 1rem;
 }
+
 .Ficklaw{
 
     width: 40%;
@@ -109,43 +125,24 @@ padding-top: 3rem;
     position:  center;
 }
 .driving_force{
-    border-radius: 5px 10px 5px 10px;
-    width: auto;
-    border-width: 1px 1px 5px 5px;
-    border-color: rgba(93, 160, 204, 0.767);
-    box-shadow: 2px 2px rgba(128, 128, 128, 0.514);
-    padding: 2rem;   
-    background-color: rgba(200, 200, 254, 0.768);
+    border-radius: 0.8rem;
+    border-left: 3px solid var(--clr-blue);
+    background-color: rgb(197, 226, 255);
 }
 .transient{
-   border-radius: 5px 10px 5px 10px;
-   width: auto;
-   border-width: 1px 1px 5px 5px;
-   border-color: rgba(93, 160, 204, 0.767);
-   box-shadow: 2px 2px rgba(128, 128, 128, 0.514);
-   padding: 2rem;
-   margin-bottom: 10px;
-   background-color: rgba(200, 200, 254, 0.768);
+    border-radius: 0.8rem;
+    border-left: 3px solid var(--clr-blue);
+    background-color: rgb(197, 226, 255);
 }
 .drawback{
-    border-radius: 5px 10px 5px 10px;
-    width: auto;
-    background-color: rgb(255, 221, 221);
-    border-width: 1px 1px 5px 5px;
-    border-color: rgba(250, 59, 59, 0.767);
-    box-shadow: 2px 2px rgba(128, 128, 128, 0.514);   
-    padding: 2rem
-    
+    border-radius: 0.8rem;
+    border-left: 3px solid rgb(255, 65, 65);
+    background-color: rgb(254, 192, 192);
 }
 .ficks_law{
-    border-radius: 5px 10px 5px 10px;
-    width: auto;
-    border-width: 1px 1px 3px 3px;
-    border-color: rgba(93, 160, 204, 0.767);
-    box-shadow: 2px 2px rgba(128, 128, 128, 0.514);
-    margin: 0;
-    padding: 2rem;
-    background-color: rgba(200, 200, 254, 0.768);
+     border-radius: 0.8rem;
+    border-left: 3px solid var(--clr-blue);
+    background-color: rgb(197, 226, 255);
 }
 a:hover{
     font-size: 1.1em;
@@ -189,3 +186,32 @@ button a{
 .conclusion{
     padding-top: 3rem;
 }
+
+.field {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+@media (max-width: 640px) {
+   main {
+    width: 100%;
+    padding: 1rem;
+   }
+
+   h1 {
+    font-size: 1.5rem;
+   }
+   h3 {
+    font-size: 1.2rem;
+   }
+}
+
+
+@media (min-width: 1024px) {
+   main {
+    width: 60%;
+    padding: 1rem;
+   }
+}
+
