@@ -5,18 +5,21 @@
     box-sizing: border-box;
 }
 body{
+    /* padding: 2rem; */
     font-family: "Raleway";
     width: 100vw;
     overflow-x: hidden;
+    min-height: fit-content;
+    background-image:linear-gradient(rgba(3, 3, 3, 0.788),rgba(26, 17, 17, 0.863));
+    background-color: #3f2c2c;
 
-    padding: 0;
 }
+
 h1 {
     font-size: 2.5rem;
    }
-h3 {
-    font-size: 2.0rem;
-    color: white;
+h2 {
+    padding: 1rem;
 }
 
 a {
@@ -24,19 +27,18 @@ a {
     color: inherit;
 }
 
-.logo{
-    color: white;
-    letter-spacing: 1px;
-    cursor: pointer;
-}
 
 span{
-    color: #f9004d;
+    color:#f9004d;
     font-style: normal;
-    font-weight: bold;
+    font-weight: bolder;
     font-size: 2.2rem;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
 }
+  h3 {
+    font-size: 1.2rem;
+    color: white;
+   }
 
 .aspire{
     color: white;
@@ -68,18 +70,25 @@ a:hover{
     background-image:linear-gradient(rgba(26, 20, 20, 0.8),rgba(34, 33, 33, 0.8)), url(/assets/istockphoto-1331881656-612x612.jpg)
 
 }
-h1{
+h1 {
     color: white;
    padding: 1rem;
 }
-
+.quotes{
+    color: white;
+   padding: 1rem;
+}
 h4{
     color: rgba(236, 224, 226, 0.8);
     letter-spacing: 1px;
+    padding: 1rem;
 }
 
 .content {
     width: 100%;
+}
+h2{
+    color: #f9004d;
 }
 
 .about{
@@ -88,16 +97,15 @@ h4{
     background-color: #3f2c2c;
     background-position: right center;
     background-repeat: no-repeat;
+    display: grid;
+    place-content: center;
+    min-height: 30vh;
     background-size: 75%;
     padding: 1rem;
     font-size: 1rem;
 }
 
-.about h2{
-    color: white;
-    text-transform: capitalize;
-    margin-bottom: 20px;
-}
+
    
 .about p{
     color: white;
@@ -130,7 +138,17 @@ h4{
    }
    h3 {
     font-size: 1.2rem;
+    color: white;
    }
+    span{
+    color:rgb(255, 153, 0);
+}
+h2{
+    color: rgb(255, 153, 0);
+}
+.about h2{
+    color: rgb(255, 153, 0);
+}
 }
 
 
@@ -139,15 +157,24 @@ h4{
     width: 80%;
     padding: 1rem;
    }
-
+   span{
+    color:#f9004d;
+   }
+     h3 {
+    font-size: 1.2rem;
+    color: white;
+   }
+   h2{
+    color:#f9004d;
+   }
    .intro{
     display: flex;
     padding: 5rem;
     flex-direction: row;
     background-size: 75%;
-}
-}
 
+}
+}
 
 
 
