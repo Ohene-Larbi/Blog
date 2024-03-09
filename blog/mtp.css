@@ -31,6 +31,18 @@ main{
   
    
 }
+.back {
+    color: inherit;
+    padding-top: 1.5rem;
+}
+.back a:hover{
+    font-size: 1.1rem;
+    transition: 0.3s;
+    
+    cursor: pointer;
+    color: brown;
+
+}
 .list{
     line-break: auto;
 }
