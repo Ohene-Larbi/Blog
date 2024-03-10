@@ -106,6 +106,9 @@ div p span{
     font-style: italic;
     font-weight: bolder;
 }
+.date{
+    font-style: italic;
+}
 img{
     max-width: 100%;
     object-fit: cover;
@@ -113,6 +116,7 @@ img{
     width: 100%;
     height: auto;
     object-position: center;
+    padding-top:1rem;
     
 }
 .background_image{
