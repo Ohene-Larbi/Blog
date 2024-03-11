@@ -57,7 +57,7 @@ li{
     font-size: x-large;
 }
 h1{
-    padding-top: 5rem;
+    padding-top: 3rem;
 }
 
 
@@ -125,8 +125,8 @@ img{
     font-style: unset;
 }
 .background_image{
-padding-top: 3rem;
-    padding-bottom: 2rem;
+padding-top: 1rem;
+    padding-bottom: 1rem;
  border-radius: 1rem;
 }
 .twofilm{
